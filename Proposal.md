@@ -16,4 +16,6 @@ Aaron is a young data scientist who is planning to move to the United States. Si
 
 The app contains a landing page where the total number of crimes per city is displayed.  The graph contains the total crime rate per city.  On the left side of the app the user will have access to the input field, where the user can enter the desired cities to compare the crime rate.  As the user enters specific cities, the graph will show the trends for the four specific crimes (homicide, robbery, rape, aggravated assault) for that city from 1975 to 2015.
 
-
+### Sketch:
+![](/imgs/app_sketch_1.PNG)
+![](/imgs/app_sketch_2.PNG)

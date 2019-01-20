@@ -18,6 +18,9 @@ The repository is for building a shiny app using Marshall violent crime data set
 
 **Dataset:** [Marshall project](https://github.com/themarshallproject/city-crime)
 
+[Link to App](https://akanshav.shinyapps.io/crime_new/)
+![](imgs/app_overview.png)
+
 #### Citation
 
 Image source : [fighting crime](http://fightingcrimenc.com/index.php/2017/09/23/fighting-crime/)

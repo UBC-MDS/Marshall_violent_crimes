@@ -3,9 +3,9 @@
 On the landing page, the app will show by default the number of all violent crimes for the ten cities with the most violent crime from 1975-2013.  
 ![](imgs/landing_page.png)
 
-As the user makes selections on the left-hand panel, the graph will update to match the selections.
-## Selecting Cities
 
+## Selecting Cities
+As the user makes selections on the left-hand panel, the graph will update to match the selections.
 By selecting cities using the checkboxes in the dropdown menu in the upper-left, the user can graph crime statistics for whatever city the user desires.  
 ![](imgs/dropdown_menu_1.png)
 
@@ -19,7 +19,7 @@ The graph on the right side of the app will update to reflect the cities selecte
 Currently, the "(Un)select all but one" button does not yet work.
 ![](imgs/dropdown_menu_4.png)
 
-## Breaking Down By Type of Crime
+## Breaking Down by Type of Crime
 
 The user can select one or more types of crime from the following: homicide, rape, robbery, and aggravated assault.  
 ![](imgs/crime_check_1.png)

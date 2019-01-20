@@ -45,7 +45,7 @@ ui <- dashboardPage(
   ),
   dashboardBody(
     # infoBoxes with fill=TRUEfluidRow(
-    infoBox("Total crime", 12000, fill = TRUE),
+    infoBox("Total reported crimes", 24203949, fill = TRUE),
     infoBoxOutput("progressBox2"),
     infoBoxOutput("approvalBox2")
     ,
@@ -139,7 +139,7 @@ server <- function(input, output, session) {
   # Same as above, but with fill=TRUE
   output$progressBox2 <- renderInfoBox({
     infoBox(
-      "Progress", paste0(25 + input$count, "%"), icon = icon("list"),
+      "Average number of crimes", 9004, icon = icon("list"),
       color = "blue", fill = TRUE
     )
   })

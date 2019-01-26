@@ -20,10 +20,12 @@ For instance, we know what each graph is showing without having to look at the g
 ## How the App has Changed since Milestone 2
 
 **Implementation**
+
 For Milestone 2, we had decided to replace the graph of the top ten cities with graphs of the four types of crime when a user selected different types of crimes.
 For Milestone 3, we changed the app to show the top ten cities and the bottom ten cities on static graphs.
 The graphs for the four types of crime still update with the user selections.  
 
 **Design change**
+
 We made this design change to help the user make comparisons between cities.  
 By always having the top and bottom ten cities visible, the user can see if the cities they selected are closer to the bottom ten or top ten cities.

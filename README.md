@@ -21,6 +21,10 @@ The repository is for building a shiny app using Marshall violent crime data set
 [Link to App](https://akanshav.shinyapps.io/crime_new/)
 ![](imgs/app_overview.png)
 
+#### Feedback to Other Groups
+- https://github.com/UBC-MDS/Mental_Health_Issue_Tracker/issues/14
+- https://github.com/UBC-MDS/Wine_Visualization_and_Analysis_Phuntsok_Jessie/issues/16
+
 #### Citation
 
 Image source : [fighting crime](http://fightingcrimenc.com/index.php/2017/09/23/fighting-crime/)

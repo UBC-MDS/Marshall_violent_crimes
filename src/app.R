@@ -23,16 +23,16 @@ crime_csv <- read.csv("ucr_crime_1975_2015_filtered.csv", stringsAsFactors = FAL
 ui <- dashboardPage(
   dashboardHeader(title = "Compare safest cities in the US", titleWidth = 350),
   dashboardSidebar(
-    width = 350,
+    width = 300,
     dropdownButton(inputId = "cityInput", 
                    label = "Select the Cities:",
                    circle = FALSE,
                    actionButton(inputId = "all", label = "(Un)select all but one"),
                    checkboxGroupInput(inputId = "check2", 
                                       label = "Choose", 
-                                      choices = c(unique(crime_csv$department_name), "Top Ten"),
-                                      selected = "Top Ten ")),
-    sliderInput("yearInput", "Select your desired year range:",
+                                      choices = c(unique(crime_csv$department_name))
+                                      )),
+    sliderInput("yearInput", "Select your desired year range:", width = 200,
                 min = 1975, max = 2013, value = c(1975, 2013)),
     sidebarMenu(
       menuItem("Dashboard", tabName = "dashboard"),
